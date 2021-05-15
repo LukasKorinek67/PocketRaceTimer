@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <bitmap android:src="@drawable/back_button"/>
+    </item>
+<item>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+        <corners android:radius="150sp" />
+        <gradient android:type="linear" android:gradientRadius="250dp" android:startColor="#880f0f10" android:centerColor="#880d0d0f" android:endColor="#885d5d5e"/>
+    </shape>
+</item>
+</layer-list>

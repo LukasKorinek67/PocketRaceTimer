@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    
+    <TextView
+        android:id="@+id/results_own_race_position"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/not_loaded"
+        android:textSize="18dp"
+        android:layout_weight="44"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/results_own_race_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:paddingStart="15dp"
+        android:text="@string/race_number_add"
+        android:textSize="18dp"
+        android:layout_weight="25"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/results_own_race_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/not_loaded"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_weight="31"
+        android:textColor="@color/black"/>
+</LinearLayout>

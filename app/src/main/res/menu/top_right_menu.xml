@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/end_race"
+        android:title="@string/end_race"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/new_race"
+        android:title="@string/new_race"
+        app:showAsAction="never"
+        />
+</menu>

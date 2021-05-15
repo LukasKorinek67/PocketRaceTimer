@@ -1,0 +1,55 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="choose_race_entries">
+        <item>@string/own_race</item>
+        <item>@string/load_race</item>
+    </string-array>
+
+    <string-array name="choose_race_values">
+        <item>@string/choose_race_values_own_race</item>
+        <item>@string/choose_race_values_load_race</item>
+    </string-array>
+
+    <string-array name="race_start_entries">
+        <item>@string/manual_start_time</item>
+        <item>@string/manual_start_button</item>
+    </string-array>
+
+    <string-array name="race_start_values">
+        <item>@string/race_start_values_manual_start_time</item>
+        <item>@string/race_start_values_manual_start_button</item>
+    </string-array>
+
+    <string-array name="race_type_entries">
+        <item>@string/mass_start</item>
+        <item>@string/time_trial</item>
+    </string-array>
+
+    <string-array name="race_type_values">
+        <item>@string/race_type_values_mass_start</item>
+        <item>@string/race_type_values_time_trial</item>
+    </string-array>
+
+    <string-array name="load_race_start_entries">
+        <item>@string/load_race_manual_start_time</item>
+        <item>@string/load_race_manual_start_button</item>
+    </string-array>
+
+    <string-array name="load_race_start_values">
+        <item>@string/load_race_start_values_manual_start_time</item>
+        <item>@string/load_race_start_values_manual_start_button</item>
+    </string-array>
+
+    <string-array name="load_race_type_entries">
+        <item>@string/mass_start</item>
+        <item>@string/time_trial</item>
+    </string-array>
+
+    <string-array name="load_race_type_values">
+        <item>@string/load_race_type_values_mass_start</item>
+        <item>@string/load_race_type_values_time_trial</item>
+    </string-array>
+
+
+
+</resources>

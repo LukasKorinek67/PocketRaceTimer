@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">PocketRaceTimer</string>
+    <string name="shared_preferences">com.lukaskorinek.pocketracetimer_preferences</string>
+    <string name="app_file_provider">com.lukaskorinek.exportcsv.fileprovider</string>
+    <string name="nav_race_time">Čas</string>
+    <string name="nav_racers">Závodníci</string>
+    <string name="nav_results">Výsledky</string>
+    <string name="nav_starting_list">Startovka</string>
+    <string name="nav_race">Závod</string>
+    <string name="stopwatch_logo">StopwatchLogo</string>
+    <string name="racer_number">Číslo závodníka</string>
+    <string name="new_racer_number">Nové číslo závodníka</string>
+    <string name="button_ok">OK</string>
+    <string name="ok">Ok</string>
+    <string name="button_edit">Upravit</string>
+    <string name="button_save">Uložit</string>
+    <string name="button_add_racer">Přidat závodníka</string>
+    <string name="button_import_starting_list">Importovat startovku</string>
+    <string name="button_export_results">Exportovat výsledky</string>
+    <string name="button_export_csv">CSV</string>
+    <string name="button_export_pdf">PDF</string>
+    <string name="button_export_html">HTML</string>
+    <string name="button_import_csv">CSV soubor</string>
+    <string name="button_import_sportchallenge">SportChallenge</string>
+    <string name="race_id">ID závodu</string>
+    <string name="export_into">Exportovat výsledky do:</string>
+    <string name="race_status1">Závod začne v:</string>
+    <string name="race_status_in_progress">Závod právě probíhá</string>
+    <string name="race_status_manual_start">Odstartujte závod kliknutím na tlačítko</string>
+    <string name="race_status_starts_in">Závod automaticky začne: </string>
+    <string name="race_status_starts_in_count">Závod automaticky začne za méně než </string>
+    <string name="race_status_starts_in_countdown">Závod automaticky začne za </string>
+    <string name="race_status_starts_in_fill_time">Zadejte prosím v nastavení čas startu závodu</string>
+    <string name="race_status_load_race">Načtěte závod pro určení času startu závodu</string>
+    <string name="race_status_not_set">Přejděte prosím do nastavení a zvolte způsob startu závodu</string>
+    <string name="race_status_ended">Závod byl ukončen</string>
+    <string name="start_race_now">Start</string>
+    <string name="info_all_racers_here">Zde uvidíte seznam všech doběhlých běžců</string>
+    <string name="info_starting_list_here">Zde uvidíte startovní listinu</string>
+    <string name="info_starting_list_only_loaded">Startovní listina se zobrazí pouze po načtení závodu</string>
+    <string name="info_starting_list_empty">Startovní listina je prázdná</string>
+    <string name="info_no_racer_finished">Žádný závodník nedoběhl</string>
+    <string name="last_four_racers">Poslední 4 závodníci:</string>
+    <string name="number_of_finished_racers">Počet závodníků v cíli:</string>
+    <string name="csv_all_racers">Všichni závodníci</string>
+    <string name="delete">Odstranit</string>
+    <string name="edit">Upravit</string>
+    <string name="load">Načíst</string>
+    <string name="add">Přidat</string>
+    <string name="close">Zavřít</string>
+    <string name="cancel">Zrušit</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="end_race">Ukončit závod</string>
+    <string name="new_race">Nový závod</string>
+    <string name="not_loaded">Nenačteno</string>
+    <string name="detail_not_set">Nezadáno</string>
+    <string name="category_none">Žádná ktegorie</string>
+    <string name="team_none">Žádný tým</string>
+    <string name="race_number_add">Závodník číslo</string>
+    <string name="display_name">Jméno:</string>
+    <string name="display_surname">Příjmení:</string>
+    <string name="display_gender">Pohlaví:</string>
+    <string name="display_date_of_birth">Datum narození:</string>
+    <string name="display_born_he">Narozen:</string>
+    <string name="display_born_she">Narozena:</string>
+    <string name="display_number">Číslo:</string>
+    <string name="display_category">Kategorie:</string>
+    <string name="display_team">Tým:</string>
+    <string name="display_time">Čas:</string>
+    <string name="display_time_trial">Časovka:</string>
+    <string name="display_start_time">Čas startu:</string>
+    <string name="display_end_time">Čas doběhu:</string>
+    <string name="display_total_time">Celkový čas:</string>
+    <string name="adapter_time">Čas:</string>
+    <string name="adapter_start">Start:</string>
+    <string name="adapter_finish">Cíl:</string>
+    <string name="man">Muž</string>
+    <string name="man_symbol">m</string>
+    <string name="woman">Žena</string>
+    <string name="woman_symbol">k</string>
+    <string name="not_finished_he">Nedoběhl</string>
+    <string name="not_finished_she">Nedoběhla</string>
+    <string name="colon">:</string>
+    <string name="dot">.</string>
+    <string name="plus">+</string>
+    <string name="all_categories">Všechny kategorie</string>
+    <string name="unknown_racer">Neznámý závodník</string>
+    <string name="number_not_filled_uppercase">ČÍSLO NEZADÁNO</string>
+    <string name="symbol_for_no_number">X</string>
+    <string name="symbol_for_no_position">N</string>
+    <string name="none_she">Žádná</string>
+    <string name="team_not_filled">Tým neuveden</string>
+    <string name="race_results">Výsledky závodu</string>
+    <string name="info_results_postion">Umístění</string>
+    <string name="info_results_number">Číslo</string>
+    <string name="info_results_name">Jméno</string>
+    <string name="info_results_time">Čas</string>
+    <string name="add_category_with_plus">+ Přidat kategorii</string>
+    <string name="category_name">Název kategorie</string>
+    <string name="lets_add_category">Přidejte kategorii</string>
+    <string name="category_already_exists">Zadaná kategorie již existuje!</string>
+    <string name="invalid_race">Neplatný závod!</string>
+    <string name="racer_not_finished_cant_edit_or_delete">Tento závodník nedoběhl - není možné upravit nebo odstranit!</string>
+    <string name="race_ended_cant_edit">Závod skončil - Upravit výsledky můžete pouze ve výsledkové listině!</string>
+    <string name="race_ended_cant_delete">Závod skončil - Odstranit výsledek závodníka můžete pouze ve výsledkové listině!</string>
+    <string name="time_trial_web_name">casovka</string>
+    <string name="dialog_edit_racer_number">Upravte číslo závodníka</string>
+    <string name="dialog_delete_are_you_sure">Opravdu chcete tohoto závodníka vymazat?</string>
+    <string name="dialog_end_race_are_you_sure">Opravdu chcete ukončit závod?</string>
+    <string name="dialog_new_race_are_you_sure">Opravdu chcete spustit nový závod? Data z tohoto závodu budou ztracena!</string>
+    <string name="dialog_confirm_changes_are_you_sure">Opravdu chcete provést tuto změnu? Všechna data budou ztracena!</string>
+    <string name="dialog_import_from_where">Odkud chcete importovat startovní listinu?</string>
+    <string name="dialog_load_sport_challenge">Zadejte prosím id vašeho závodu</string>
+
+    <string name="csv_export_place">Umístění</string>
+    <string name="csv_export_number">Číslo závodníka</string>
+    <string name="csv_export_name">Jméno</string>
+    <string name="csv_export_time">Čas</string>
+    <string name="csv_export_category">Kategorie</string>
+    <string name="csv_export_team">Tým</string>
+    <string name="export_default_file_name_extra_subject">Výsledky závodu</string>
+    <string name="export_default_file_name">vysledky_zavodu</string>
+
+    <string name="not_supported_yet">Tato funkcionalita zatím není podporována</string>
+    <string name="unexpected_error">Došlo k neočekávané chybě</string>
+
+
+    <string name="error_racing_number_already_finished">Toto číslo již doběhlo!</string>
+    <string name="error_racer_already_finished">Tento závodník již doběhl!</string>
+
+    <string name="starting_list_imported">Startovní listina importována!</string>
+    <string name="csv_import_error_number">Soubor neobsahuje sloupec s čísly závodníků!</string>
+    <string name="csv_import_error_name">Soubor neobsahuje sloupec s jmény závodníků!</string>
+    <string name="csv_import_error_surname">Soubor neobsahuje sloupec s příjmeními závodníků!</string>
+    <string name="csv_import_error_gender">Soubor neobsahuje sloupec s pohlavími závodníků!</string>
+    <string name="csv_import_error_category">Soubor neobsahuje sloupec s kategoriemi závodníků!</string>
+
+
+    <!-- Shared preferences -->
+    <string name="shared_pref_race_name">race_name</string>
+    <string name="shared_pref_start_time">start_time</string>
+    <!-- Preference -->
+    <string name="race_settings">Nastavení závodu</string>
+    <string name="choose_race">Vyberte závod</string>
+    <string name="race_type">Typ závodu</string>
+    <string name="race_start">Start závodu</string>
+    <string name="pick_start_date_time">Vybrat datum a čas startu</string>
+    <string name="change_start_time_load_race">Upravit čas startu načteného závodu</string>
+    <string name="not_set">Nezadáno</string>
+    <string name="load_race_time_starting_list">Načíst závod - čas a startovka</string>
+    <!-- Preference keys -->
+    <string name="choose_race_option_key">race_type</string>
+    <string name="own_race_start_option_key">race_start</string>
+    <string name="load_race_start_type_key">load_race_start_type</string>
+    <string name="date_time_preference_key">race_start_pick</string>
+    <string name="load_race_start_key">load_race_start</string>
+    <string name="change_race_start_key">change_race_start</string>
+    <string name="own_race_type_option_key">own_race_type</string>
+    <string name="load_race_type_option_key">load_race_type</string>
+    <!-- Preference array entries -->
+    <string name="manual_start_time">Manuální zadání času startu</string>
+    <string name="manual_start_button">Odstartovat tlačítkem</string>
+    <string name="own_race">Vlastní závod</string>
+    <string name="load_race">Načíst závod</string>
+    <string name="mass_start">Hromadný start</string>
+    <string name="time_trial">Časovka</string>
+    <string name="load_race_manual_start_time">Podle času startu závodu</string>
+    <string name="load_race_manual_start_button">Odstartovat tlačítkem</string>
+    <!-- Preference array values -->
+    <string name="race_start_values_manual_start_time">manual_start_time</string>
+    <string name="race_start_values_manual_start_button">manual_start_button</string>
+    <string name="choose_race_values_own_race">own_race</string>
+    <string name="choose_race_values_load_race">load_race</string>
+    <string name="race_type_values_mass_start">mass_start</string>
+    <string name="race_type_values_time_trial">time_trial</string>
+    <string name="load_race_start_values_manual_start_time">load_race_manual_start_time</string>
+    <string name="load_race_start_values_manual_start_button">load_race_manual_start_button</string>
+    <string name="load_race_type_values_mass_start">mass_start</string>
+    <string name="load_race_type_values_time_trial">time_trial</string>
+    <!-- Edit and Add racer errors -->
+    <string name="racer_error_empty_name">Vyplňte prosím jméno závodníka!</string>
+    <string name="racer_error_empty_surname">Vyplňte prosím příjmení závodníka!</string>
+    <string name="racer_error_empty_number">Vyplňte prosím číslo závodníka!</string>
+    <string name="racer_error_number_not_number">Špatné číslo závodníka - musí být číslo!</string>
+    <string name="racer_error_too_low_number">Špatné číslo závodníka - nemůže být 0 a menší!</string>
+    <string name="racer_error_too_high_number">Špatné číslo závodníka - příliš vysoké!</string>
+    <string name="racer_error_number_already_exists">Závodník s tímto číslem již existuje!</string>
+    <string name="racer_error_empty_time">Vyplňte prosím celý čas závodníka!</string>
+    <string name="racer_error_time_not_number">Špatný čas závodníka - musí být číslo!</string>
+    <string name="racer_error_time_too_low">Špatný čas závodníka - nemůže být menší než nula!</string>
+    <string name="racer_error_wrong_day_range">Špatný čas závodníka - den má 24 hodin!</string>
+    <string name="racer_error_wrong_hour_range">Špatný čas závodníka - hodina má 60 minut!</string>
+    <string name="racer_error_wrong_minute_range">Špatný čas závodníka - minuta má 60 sekund!</string>
+    <string name="racer_error_empty_day">Vyplňte prosím den narození závodníka!</string>
+    <string name="racer_error_empty_month">Vyplňte prosím měsíc narození závodníka!</string>
+    <string name="racer_error_empty_year">Vyplňte prosím rok narození závodníka!</string>
+    <string name="racer_error_day_not_number">Špatný den narození - musí být číslo!</string>
+    <string name="racer_error_wrong_day">Špatná hodnota dne narození!</string>
+    <string name="racer_error_month_not_number">Špatný měsíc narození - musí být číslo!</string>
+    <string name="racer_error_wrong_month">Špatná hodnota měsíce narození!</string>
+    <string name="racer_error_year_not_number">Špatný rok narození - musí být číslo!</string>
+    <string name="racer_error_wrong_year">Špatná hodnota roku narození!</string>
+    <string name="racer_error_february_too_much_days">Špatné datum narození - únor nemá tolik dní!</string>
+    <string name="racer_error_too_much_days">Špatné datum narození - zadaný měsíc má pouze 30 dní!</string>
+    <string name="racer_error_wrong_category">Nevhodný název kategorie - zvolte prosím jiný</string>
+    <string name="racer_error_wrong_time">Špatný časový údaj</string>
+
+    <string name="about_app">O aplikaci</string>
+    <string name="about_app_info">Info o aplikaci</string>
+    <string name="about_app_info_key">info_about_app</string>
+    <string name="about_app_info_title">Info o aplikaci</string>
+    <string name="about_app_info_text">PocketRaceTimer je aplikace, která Vám pomůže změřit jakékoliv závody prostřednictvím Vašeho mobilního telefonu. Stačí nastavit typ závodu a způsob startu a můžete jít na věc!\n\nAplikace umožňuje importovat startovní listinu a exportovat výsledky závodu. Zatím je dostupná pouze v českém jazyce.\n\nTato aplikace byla vytvořena jako součást bakalářské práce na TUL FM.\nVývojář: Lukáš Kořínek</string>
+    <string name="about_app_help_and_support">Připomínky a návrhy na zlepšení</string>
+    <string name="about_app_help_and_support_key">help_and_support_about_app</string>
+    <string name="about_app_help_and_support_title">Připomínky a návrhy na zlepšení</string>
+    <string name="about_app_help_and_support_text">Děkuji za používání mé aplikace!\n\nV případě jakýchkoliv námětu, připomínek, či návrhů na vylepšení neváhejte napsat e-mail na:\n\nlukas.korinek@tul.cz</string>
+
+
+    <string name="notification">Upozornění</string>
+    <string name="notification_text_race_change">Váš závod obsahuje startovní listinu!\n\nPokud změníte toto nastavení, přijdete o všechna data - tím pádem i o závodníky ve startovní listině!</string>
+
+
+    <string name="help">Nápověda</string>
+    <string name="help_csv_import">Import startovní listiny ze zvoleného souboru ve formátu CSV. Soubor musí obsahovat tato data:\n- Startovní číslo\n- Jméno\n- Příjmení\n- Pohlaví\n- Kategorie\n\n Další nepovinná data jsou:\n- Tým\n- Datum narození (formát DD.MM.YYYY)\n- Čas startu (důležité, pokud se nejdná o závod s hromadným startem)\n\nPro úspěšný import je třeba na prvním řádku souboru mít popsaná všechna data.\n\nPrvní řádek tedy může vypadat následovně:\nJméno;Příjmení;Číslo;Pohlaví;Datum narození;Kategorie;Tým;Čas startu\n\nNa pořadí, interpunkci a velikosti písmen nezáleží.</string>
+    <string name="help_sportchallenge_import">Import startovní listiny ze serveru SportChallenge. Je třeba znát ID číslo startovního paketu Vašeho závodu. Po zadání se načte startovní listina závodu.</string>
+
+
+
+</resources>

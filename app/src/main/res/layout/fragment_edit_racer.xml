@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="textStart"
+                android:gravity="start">
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_back"
+                    android:padding="7dp"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_name"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <EditText
+                    android:id="@+id/edit_racer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_surname"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <EditText
+                    android:id="@+id/edit_racer_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_gender"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <Spinner
+                    android:id="@+id/edit_racer_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/spinner_background"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_date_of_birth"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_racer_date_of_birth_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/dot"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_date_of_birth_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/dot"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_date_of_birth_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_category"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <Spinner
+                    android:id="@+id/edit_racer_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/spinner_background"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_team"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <EditText
+                    android:id="@+id/edit_racer_team"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_number"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <EditText
+                    android:id="@+id/edit_racer_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:inputType="number"
+                    android:textStyle="bold"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:id="@+id/edit_racer_time_mass_start">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_time"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_seconds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/edit_racer_time_trial_start">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_start_time"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/plus"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_start_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_start_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_start_seconds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/edit_racer_time_trial_end">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_end_time"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_end_hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_end_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="4"
+                        android:gravity="start"
+                        android:textAlignment="textStart"
+                        android:text="@string/colon"
+                        android:textSize="18dp"/>
+
+                    <EditText
+                        android:id="@+id/edit_racer_time_trial_end_seconds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/edit_racer_time_trial_total_time_layout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="6"
+                    android:gravity="start"
+                    android:text="@string/display_total_time"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/edit_racer_time_trial_total_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="4"
+                    android:gravity="start"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:paddingTop="5dp"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveRacerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_black"
+                android:padding="7dp"
+                android:text="@string/button_save"
+                android:textColor="@drawable/black_button_text"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

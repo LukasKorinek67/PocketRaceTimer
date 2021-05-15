@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@color/lightGrey"
+        android:text="@string/race_status_in_progress"
+        android:textStyle="italic"
+        android:textAlignment="center" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="5dp"
+        android:textAllCaps="false"
+        android:textSize="80sp" />
+    <!-- android:background="@drawable/border" -->
+
+    <EditText
+        android:id="@+id/racerNumber"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/racer_number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/numberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_black"
+        android:text="@string/button_ok"
+        android:textColor="@drawable/black_button_text"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_black"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/start_race_now"
+        android:textColor="@drawable/black_button_text"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/info_text_last_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/last_four_racers"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/racers_list"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_race_time"
+        android:icon="@drawable/ic_baseline_alarm_24"
+        android:title="@string/nav_race_time"
+        />
+
+    <item
+        android:id="@+id/nav_racers"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:title="@string/nav_racers"
+        />
+
+    <item
+        android:id="@+id/nav_starting_list"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="@string/nav_starting_list"
+        />
+
+    <item
+        android:id="@+id/nav_race"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/nav_race"
+        />
+
+</menu>

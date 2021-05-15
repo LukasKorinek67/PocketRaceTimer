@@ -1,0 +1,80 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/race_settings">
+        <ListPreference
+            android:defaultValue="@string/choose_race_values_own_race"
+            app:entries="@array/choose_race_entries"
+            app:entryValues="@array/choose_race_values"
+            app:key="@string/choose_race_option_key"
+            app:title="@string/choose_race"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/own_race">
+        <ListPreference
+            android:defaultValue="@string/race_start_values_manual_start_button"
+            app:entries="@array/race_start_entries"
+            app:entryValues="@array/race_start_values"
+            app:key="@string/own_race_start_option_key"
+            app:title="@string/race_start"
+            app:useSimpleSummaryProvider="true"/>
+
+        <com.lukaskorinek.pocketracetimer.dialogs.DateTimePreference
+            app:enabled="true"
+            android:title="@string/pick_start_date_time"
+            android:key="@string/date_time_preference_key"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            android:defaultValue="@string/race_type_values_mass_start"
+            app:entries="@array/race_type_entries"
+            app:entryValues="@array/race_type_values"
+            app:key="@string/own_race_type_option_key"
+            app:title="@string/race_type"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/load_race">
+        <EditTextPreference
+            app:enabled="false"
+            app:key="@string/load_race_start_key"
+            app:title="@string/load_race_time_starting_list"
+            app:dialogMessage="@string/dialog_load_sport_challenge"/>
+
+        <ListPreference
+            android:defaultValue="@string/load_race_start_values_manual_start_button"
+            app:entries="@array/load_race_start_entries"
+            app:entryValues="@array/load_race_start_values"
+            app:key="@string/load_race_start_type_key"
+            app:title="@string/race_start"
+            app:useSimpleSummaryProvider="true"/>
+
+        <com.lukaskorinek.pocketracetimer.dialogs.DateTimePreference
+            app:enabled="false"
+            app:title="@string/change_start_time_load_race"
+            app:key="@string/change_race_start_key"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/load_race_type_values_mass_start"
+            app:entries="@array/race_type_entries"
+            app:entryValues="@array/race_type_values"
+            app:key="@string/load_race_type_option_key"
+            app:title="@string/race_type"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about_app">
+        <Preference
+            app:key="@string/about_app_info_key"
+            app:title="@string/about_app_info"/>
+
+        <Preference
+            app:key="@string/about_app_help_and_support_key"
+            app:title="@string/about_app_help_and_support"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

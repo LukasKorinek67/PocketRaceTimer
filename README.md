@@ -1,9 +1,9 @@
 # Mobilní aplikace PocketRaceTimer
 --------------------------
 
-Lukáš Kořínek
+##### Bakalářská práce
 
-Bakalářská práce
+Lukáš Kořínek
 
 *2021*
 
